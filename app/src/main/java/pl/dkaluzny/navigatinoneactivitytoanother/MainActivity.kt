@@ -13,10 +13,12 @@ class MainActivity : AppCompatActivity() {
 
         goSecondId.setOnClickListener {
 
-            //            var intent = Intent(this, SecondActivity::class.java)
-            //            startActivity(intent)
-            startActivity(Intent(this, SecondActivity::class.java))
+            var intent = Intent(this, SecondActivity::class.java)
+            intent.putExtra("name", "Bonni")
+            intent.putExtra("char", 'C')
+            intent.putExtra("Int", 23)
 
+            startActivity(intent)
         }
     }
 }
