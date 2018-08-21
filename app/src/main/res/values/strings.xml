@@ -2,4 +2,5 @@
     <string name="app_name">NavigatinOneActivityToAnother</string>
     <string name="first_button">Go to Second Activity</string>
     <string name="Title">Second Activity</string>
+    <string name="goback">Go back</string>
 </resources>
